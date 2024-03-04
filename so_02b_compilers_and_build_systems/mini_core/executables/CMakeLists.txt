@@ -1,4 +1,4 @@
-# TODO compile executable that will be run  
+# Compile executable that will be run  
 
 # add_compile_options(-w) # to delete warning messages
 

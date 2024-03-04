@@ -16,10 +16,10 @@ if( NOT EIGEN3_INCLUDE_DIR )
 endif()
 
 
-# TODO invokes the routines to find a package called Eigen3
+# invokes the routines to find a package called Eigen3
 find_package(Eigen3 REQUIRED)
 
-# TODO specify additional locations of header files
+# specify additional locations of header files
 include_directories(
   ${EIGEN3_INCLUDE_DIR}
   ${PROJECT_SOURCE_DIR}/src
@@ -28,5 +28,5 @@ include_directories(
 # add project source code
 add_subdirectory(src)
 
-# TODO do the same for executables
+# do the same for executables
 add_subdirectory(executables)

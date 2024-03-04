@@ -1,7 +1,8 @@
 add_library(core_library SHARED
   utils/blob.cpp 
 
-  # TODO add other .cpp files
+  # Add other .cpp files
+  #utils
   utils/deserializer.cpp 
   utils/id_context.cpp 
   utils/id_placeholder.cpp 
